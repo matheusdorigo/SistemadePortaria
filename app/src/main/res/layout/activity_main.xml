@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistema de vendas"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Categoria"
+            android:id="@+id/btn1"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Fabricante"
+            android:id="@+id/btn2"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Produtos"
+            android:id="@+id/btn3"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Visualizar Categoria"
+            android:id="@+id/btn4"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Visualizar Fabricante"
+            android:id="@+id/btn5"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Visualizar Produto"
+            android:id="@+id/btn6"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Venda"
+            android:id="@+id/btn7"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Visualizar Venda"
+            android:id="@+id/btn8"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Usuarios"
+            android:id="@+id/btn9"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Sair"
+            android:id="@+id/btn10"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
