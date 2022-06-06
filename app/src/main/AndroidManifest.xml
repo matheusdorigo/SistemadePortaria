@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FabricanteEditar"></activity>
-        <activity android:name=".Produtos" />
-        <activity android:name=".FabricnateView" />
-        <activity android:name=".Fabricante" />
-        <activity android:name=".CategoriaEditar" />
-        <activity android:name=".CategoriaVIew" />
+        <activity android:name=".TransporteEditar"></activity>
+        <activity android:name=".Pessoas" />
+        <activity android:name=".TransporteView" />
+        <activity android:name=".Transporte" />
+        <activity android:name=".EmpresaEditar" />
+        <activity android:name=".EmpresaVIew" />
         <activity android:name=".Main" />
-        <activity android:name=".Categoria" />
+        <activity android:name=".Empresa" />
         <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

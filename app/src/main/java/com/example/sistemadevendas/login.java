@@ -46,7 +46,7 @@ public class login extends AppCompatActivity {
         if(userName.equals("") || (password.equals(""))){
             Toast.makeText(this,"Os campos não podem  ser vazios", Toast.LENGTH_SHORT).show();
 
-        }else if(userName.equals("Fernando") && (password.equals("172203"))){
+        }else if(userName.equals("borgo") && (password.equals("123"))){
             Intent i = new Intent(login.this,Main.class);
             startActivity(i);
             Toast.makeText(this, "Logado com sucesso!", Toast.LENGTH_SHORT).show();

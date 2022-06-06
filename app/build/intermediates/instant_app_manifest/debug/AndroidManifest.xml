@@ -19,14 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.sistemadevendas.FabricanteEditar" />
-        <activity android:name="com.example.sistemadevendas.Produtos" />
-        <activity android:name="com.example.sistemadevendas.FabricnateView" />
-        <activity android:name="com.example.sistemadevendas.Fabricante" />
-        <activity android:name="com.example.sistemadevendas.CategoriaEditar" />
-        <activity android:name="com.example.sistemadevendas.CategoriaVIew" />
+        <activity android:name="com.example.sistemadevendas.TransporteEditar" />
+        <activity android:name="com.example.sistemadevendas.Pessoas" />
+        <activity android:name="com.example.sistemadevendas.TransporteView" />
+        <activity android:name="com.example.sistemadevendas.Transporte" />
+        <activity android:name="com.example.sistemadevendas.EmpresaEditar" />
+        <activity android:name="com.example.sistemadevendas.EmpresaVIew" />
         <activity android:name="com.example.sistemadevendas.Main" />
-        <activity android:name="com.example.sistemadevendas.Categoria" />
+        <activity android:name="com.example.sistemadevendas.Empresa" />
         <activity android:name="com.example.sistemadevendas.login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

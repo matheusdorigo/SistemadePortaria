@@ -1,4 +1,4 @@
-#Thu Oct 24 15:27:50 BRT 2019
-base.0=C\:\\Users\\Ferna\\AndroidStudioProjects\\SistemaDeVendas2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Mon Jun 06 15:30:29 BRT 2022
+base.0=C\:\\Desenvolvimento\\projetoportaria\\SistemaDeVendas\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".login">
@@ -13,12 +14,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            app:srcCompat="@drawable/logo" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sistema de vendas"
+            android:text="Portaria"
             android:textSize="30sp"
-            android:textColor="@color/colorAccent" />
+            android:textColor="#000000" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,7 +85,7 @@
             android:text="Login"
             android:id="@+id/btnLogar"
             android:layout_margin="10dp"
-            android:background="@color/colorAccent"
+            android:background="#0154FB"
             android:textColor="#fff"
             />
         <Button
@@ -81,7 +94,7 @@
             android:text="Sair"
             android:id="@+id/btnSairApp"
             android:layout_margin="10dp"
-            android:background="@color/colorAccent"
+            android:background="#0154FB"
             android:textColor="#fff"
             />
 

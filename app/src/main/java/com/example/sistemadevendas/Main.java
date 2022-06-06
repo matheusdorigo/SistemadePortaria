@@ -21,27 +21,28 @@ public class Main extends AppCompatActivity {
         b3 = findViewById(R.id.btn3);
         b4= findViewById(R.id.btn4);
         b5 = findViewById(R.id.btn5);
+        b6 = findViewById(R.id.btn6);
         b10 = findViewById(R.id.btn10);
 
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent i = new Intent(Main.this,Categoria.class);
+               Intent i = new Intent(Main.this, Empresa.class);
                startActivity(i);
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Main.this,Fabricante.class);
+                Intent i = new Intent(Main.this, Transporte.class);
                 startActivity(i);
             }
         });
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Main.this,Produtos.class);
+                Intent i = new Intent(Main.this, Pessoa.class);
                 startActivity(i);
             }
         });
@@ -49,14 +50,21 @@ public class Main extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Main.this, CategoriaVIew.class);
+                Intent i = new Intent(Main.this, EmpresaVIew.class);
                 startActivity(i);
             }
         });
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Main.this, FabricnateView.class);
+                Intent i = new Intent(Main.this, TransporteView.class);
+                startActivity(i);
+            }
+        });
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Main.this, PessoaVIew.class);
                 startActivity(i);
             }
         });
